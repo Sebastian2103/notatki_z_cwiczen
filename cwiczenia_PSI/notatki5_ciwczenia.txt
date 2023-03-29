@@ -1,0 +1,14 @@
+1. diagram kontekstowy
+2. diagram przypadków użycia
+3.dokumentacja przypadków użycia:
+	a)opisac poszczególne funkcje+ dane
+	b)diagram czynnosci
+	c)scenariusz
+4.programista musi widziec w jezyku obiektowym - musi widziec klasy
+Diagram analityczny:
+ • Obiekty brzegowe (Boundary objects): Są to interfejsy miedzy systemem I
+   światem zewnętrznym. Zazwyczaj są to ekrany, strony internetowe itp., z którymi
+   aktor wchodzi w interakcję.
+ • Encje (Entity objects): Klasy, obiekty, informacje z bazy danych.
+ • Kontrolery (Controllers): Czynności, łączą obiekty brzegowe i encje.
+ pidoco! figma! 
