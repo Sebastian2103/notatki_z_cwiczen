@@ -1,0 +1,11 @@
+%kontkatenacja(L1,L2,L3) - spełniony gdy L3 jest konkatenacją list L1 i L2.
+%L1=[1,2] L2=[3,4]
+%L3=[1,2,3,4]
+
+konkatenacja([],L,L).
+
+konkatenacja([H|T1],L,[H|T2]):-konkatenacja(T1,L,T2).
+
+odwrotna_lista([],[]).
+%rekurencja
+odwrotna_lista([H|T1],L):-odwrotna_lista(T1,T2),konkatenacja(T2,[H],L).
